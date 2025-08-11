@@ -1,0 +1,12 @@
+package com.klef;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class clientcontroller {
+	public String home() {
+		return "CI/CD and cloud DevOps";
+		
+	}
+
+}

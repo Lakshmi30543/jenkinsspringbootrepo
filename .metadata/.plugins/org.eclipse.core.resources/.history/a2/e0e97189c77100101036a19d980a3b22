@@ -1,0 +1,15 @@
+package com.klef;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import.org.springfram
+
+@SpringBootApplication
+public class SpringBootDemoProjectApplication extends SpringbootServletInitializer {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootDemoProjectApplication.class, args);
+		System.out.println("Devops - 205");
+	}
+
+}
